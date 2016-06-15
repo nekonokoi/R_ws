@@ -24,6 +24,7 @@ conda list
 #### 5. R環境
 ```
 R
+package.install('pbdZMQ')
 library(devtools)
 install_github('IRkernel/IRdisplay')
 install_github('IRkernel/IRkernel')
